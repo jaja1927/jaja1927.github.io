@@ -11,7 +11,7 @@
     class="grid h-screen text-gray-900 bg-white dark:bg-gray-900 dark:text-white place-content-center"
   >
     <!-- dark mode -->
-    <div class="flex items-center gap-1">
+    <div class="absolute top-7 right-10 flex items-center gap-1">
       <?xml version="1.0" ?><!DOCTYPE svg PUBLIC '-//W3C//DTD SVG 1.1//EN' 'http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd'>
       <svg
         enable-background="new 0 0 512 512"
@@ -58,12 +58,13 @@
     </div>
     <script>
       let theme = "light";
+
       function toggleDarkTheme() {
-        if (theme === "dark") {
-          theme = "light";
+        if (localStorage.getItem("theme") === "dark") {
+          localStorage.setItem("theme", "light");
           document.documentElement.classList.remove("dark");
         } else {
-          theme = "dark";
+          localStorage.setItem("theme", "dark");
           document.documentElement.classList.add("dark");
         }
       }
@@ -71,8 +72,12 @@
       document
         .querySelector("button")
         .addEventListener("click", toggleDarkTheme);
+      if (localStorage.getItem("theme") === "dark") {
+        document.documentElement.classList.add("dark");
+      }
     </script>
     <!-- dark mode selesai -->
+
     <!-- hero mualai -->
     <section id="home" class="pt-36 dark:bg-dark">
       <div class="container">
