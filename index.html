@@ -10,8 +10,35 @@
   <body
     class="grid h-screen text-gray-900 bg-white dark:bg-gray-900 dark:text-white place-content-center"
   >
+    <!-- navbar start -->
+    <header
+      class="bg-transparent absolute top-0 left-0 w-full flex items-center z-10"
+    >
+      <div class="container">
+        <div class="flex items-center justify-between relative bg-secondary">
+          <div class="px-4">
+            <div>
+              <div class="text-secondary">brand</div>
+            </div>
+              <div class="flex items-center px-4">
+                <button
+                  id="hamburger"
+                  name="hamburger"
+                  type="button"
+                  class="block absolute right-4"
+                >
+                  <span class="hamburger-line"></span>
+                  <span class="hamburger-line"></span>
+                  <span class="hamburger-line"></span>
+                </button>
+              </div>
+            </div>
+          
+        </div>
+      </header>
+    <!-- navbar end -->
     <!-- dark mode -->
-    <div class="absolute right-10 flex items-center gap-1">
+    <div class="absolute right-14 flex items-center gap-1 pt-32">
       <?xml version="1.0" ?><!DOCTYPE svg PUBLIC '-//W3C//DTD SVG 1.1//EN' 'http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd'>
       <svg
         enable-background="new 0 0 512 512"
@@ -34,7 +61,7 @@
         </g>
       </svg>
 
-      <button class="w-10 h-5 p-0.5 rounded-full bg-primary">
+      <button id="dark" class="w-10 h-5 p-0.5 rounded-full bg-primary">
         <div
           class="w-4 h-4 bg-white rounded-full dark:bg-gray-800 dark:translate-x-5"
         ></div>
@@ -56,26 +83,7 @@
         />
       </svg>
     </div>
-    <script>
-      let theme = "light";
-
-      function toggleDarkTheme() {
-        if (localStorage.getItem("theme") === "dark") {
-          localStorage.setItem("theme", "light");
-          document.documentElement.classList.remove("dark");
-        } else {
-          localStorage.setItem("theme", "dark");
-          document.documentElement.classList.add("dark");
-        }
-      }
-
-      document
-        .querySelector("button")
-        .addEventListener("click", toggleDarkTheme);
-      if (localStorage.getItem("theme") === "dark") {
-        document.documentElement.classList.add("dark");
-      }
-    </script>
+  
     <!-- dark mode selesai -->
 
     <!-- hero mualai -->
@@ -98,7 +106,7 @@
               >Home</a
             >
             <a
-              href="#"
+              href="About"
               class="rounded-lg bg-primary py-2 px-6 text-base font-medium text-white transition duration-300 ease-in-out hover:opacity-50 hover:shadow-lg"
               >About</a
             >
@@ -172,5 +180,6 @@
       </div>
     </section>
     <!-- about selesai -->
+    <script src="dist/script.js"></script>
   </body>
 </html>
