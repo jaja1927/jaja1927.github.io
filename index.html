@@ -11,31 +11,38 @@
     class="grid h-screen text-gray-900 bg-white dark:bg-gray-900 dark:text-white place-content-center"
   >
     <!-- navbar start -->
+    <
     <header
-      class="bg-transparent absolute top-0 left-0 w-full flex items-center z-10"
+      class="absolute top-0 left-0 z-10 flex w-full items-center bg-transparent"
     >
       <div class="container">
-        <div class="flex items-center justify-between relative bg-secondary">
+        <div class="relative flex items-center justify-between">
           <div class="px-4">
-            <div>
-              <div class="text-secondary">brand</div>
-            </div>
-              <div class="flex items-center px-4">
-                <button
-                  id="hamburger"
-                  name="hamburger"
-                  type="button"
-                  class="block absolute right-4"
-                >
-                  <span class="hamburger-line transition duration-300 ease-in-out  origin-top-left"></span>
-                  <span class="hamburger-line transition duration-300 ease-in-out"></span>
-                  <span class="hamburger-line transition duration-300 ease-in-out origin-bottom-left rotate"></span>
-                </button>
-              </div>
-            </div>
-          
+            <a href="#home" class="block py-3 text-lg font-bold text-primary"
+              >my portofilio</a
+            >
+          </div>
+          <div class="flex items-center px-4">
+            <button
+              id="hamburger"
+              name="hamburger"
+              type="button"
+              class="absolute right-4 block lg:hidden"
+            >
+              <span
+                class="hamburger-line origin-top-left transition duration-300 ease-in-out"
+              ></span>
+              <span
+                class="hamburger-line transition duration-300 ease-in-out"
+              ></span>
+              <span
+                class="hamburger-line origin-bottom-left transition duration-300 ease-in-out"
+              ></span>
+            </button>
+          </div>
         </div>
-      </header>
+      </div>
+    </header>
     <!-- navbar end -->
     <!-- dark mode -->
     <div class="absolute right-14 flex items-center gap-1 pt-32">
@@ -83,7 +90,7 @@
         />
       </svg>
     </div>
-  
+
     <!-- dark mode selesai -->
 
     <!-- hero mualai -->
