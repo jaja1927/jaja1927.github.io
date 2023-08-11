@@ -13,6 +13,10 @@ module.exports = {
         abu2: "#6b7280",
         darkMode: ["class", '[data-mode="dark"]'],
       },
+      fontFamily: {
+        raleway: ["Raleway"],
+        tebal: ["Roboto"],
+      },
       screens: {
         "2xl": "1320px",
       },
