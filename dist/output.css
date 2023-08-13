@@ -745,6 +745,14 @@ video {
   margin-bottom: 9rem;
 }
 
+.mb-64 {
+  margin-bottom: 16rem;
+}
+
+.-mb-64 {
+  margin-bottom: -16rem;
+}
+
 .block {
   display: block;
 }
@@ -945,6 +953,26 @@ video {
 .py-96 {
   padding-top: 24rem;
   padding-bottom: 24rem;
+}
+
+.py-48 {
+  padding-top: 12rem;
+  padding-bottom: 12rem;
+}
+
+.py-16 {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+.py-20 {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+.py-28 {
+  padding-top: 7rem;
+  padding-bottom: 7rem;
 }
 
 .pb-10 {
