@@ -35,3 +35,10 @@ if (localStorage.getItem("theme") === "dark") {
   document.documentElement.classList.add("dark");
 }
 // dark end
+// alert
+var button = document.getElementById("alertt");
+button.addEventListener("click", alert);
+function alert() {
+  alert("Tombol telah ditekan!");
+}
+// alert
