@@ -608,24 +608,8 @@ video {
   top: 0px;
 }
 
-.right-11 {
-  right: 2.75rem;
-}
-
-.right-10 {
-  right: 2.5rem;
-}
-
-.right-0 {
-  right: 0px;
-}
-
 .z-10 {
   z-index: 10;
-}
-
-.float-right {
-  float: right;
 }
 
 .mx-auto {
@@ -635,6 +619,10 @@ video {
 
 .-mb-16 {
   margin-bottom: -4rem;
+}
+
+.-mb-28 {
+  margin-bottom: -7rem;
 }
 
 .mb-10 {
@@ -649,20 +637,20 @@ video {
   margin-bottom: 0.75rem;
 }
 
-.mb-4 {
-  margin-bottom: 1rem;
+.mb-36 {
+  margin-bottom: 9rem;
 }
 
-.mb-48 {
-  margin-bottom: 12rem;
+.mb-4 {
+  margin-bottom: 1rem;
 }
 
 .mb-5 {
   margin-bottom: 1.25rem;
 }
 
-.mb-80 {
-  margin-bottom: 20rem;
+.mb-96 {
+  margin-bottom: 24rem;
 }
 
 .mr-4 {
@@ -687,70 +675,6 @@ video {
 
 .mt-7 {
   margin-top: 1.75rem;
-}
-
-.mt-5 {
-  margin-top: 1.25rem;
-}
-
-.mt-10 {
-  margin-top: 2.5rem;
-}
-
-.mt-40 {
-  margin-top: 10rem;
-}
-
-.mb-16 {
-  margin-bottom: 4rem;
-}
-
-.mb-56 {
-  margin-bottom: 14rem;
-}
-
-.mb-96 {
-  margin-bottom: 24rem;
-}
-
-.-mb-56 {
-  margin-bottom: -14rem;
-}
-
-.-mb-10 {
-  margin-bottom: -2.5rem;
-}
-
-.-mb-96 {
-  margin-bottom: -24rem;
-}
-
-.-mb-20 {
-  margin-bottom: -5rem;
-}
-
-.-mb-28 {
-  margin-bottom: -7rem;
-}
-
-.mb-11 {
-  margin-bottom: 2.75rem;
-}
-
-.mb-32 {
-  margin-bottom: 8rem;
-}
-
-.mb-36 {
-  margin-bottom: 9rem;
-}
-
-.mb-64 {
-  margin-bottom: 16rem;
-}
-
-.-mb-64 {
-  margin-bottom: -16rem;
 }
 
 .block {
@@ -797,16 +721,16 @@ video {
   width: 100%;
 }
 
-.w-64 {
-  width: 16rem;
-}
-
 .max-w-md {
   max-width: 28rem;
 }
 
 .max-w-xl {
   max-width: 36rem;
+}
+
+.flex-auto {
+  flex: 1 1 auto;
 }
 
 .origin-bottom-left {
@@ -898,10 +822,6 @@ video {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
-.bg-current {
-  background-color: currentColor;
-}
-
 .p-0 {
   padding: 0px;
 }
@@ -922,14 +842,6 @@ video {
   padding: 2rem;
 }
 
-.p-20 {
-  padding: 5rem;
-}
-
-.p-10 {
-  padding: 2.5rem;
-}
-
 .px-4 {
   padding-left: 1rem;
   padding-right: 1rem;
@@ -945,6 +857,11 @@ video {
   padding-bottom: 0.5rem;
 }
 
+.py-28 {
+  padding-top: 7rem;
+  padding-bottom: 7rem;
+}
+
 .py-3 {
   padding-top: 0.75rem;
   padding-bottom: 0.75rem;
@@ -955,28 +872,75 @@ video {
   padding-bottom: 24rem;
 }
 
+.py-7 {
+  padding-top: 1.75rem;
+  padding-bottom: 1.75rem;
+}
+
+.py-40 {
+  padding-top: 10rem;
+  padding-bottom: 10rem;
+}
+
 .py-48 {
   padding-top: 12rem;
   padding-bottom: 12rem;
 }
 
-.py-16 {
-  padding-top: 4rem;
-  padding-bottom: 4rem;
-}
-
-.py-20 {
-  padding-top: 5rem;
-  padding-bottom: 5rem;
-}
-
-.py-28 {
-  padding-top: 7rem;
-  padding-bottom: 7rem;
-}
-
 .pb-10 {
   padding-bottom: 2.5rem;
+}
+
+.pt-28 {
+  padding-top: 7rem;
+}
+
+.pt-72 {
+  padding-top: 18rem;
+}
+
+.pt-96 {
+  padding-top: 24rem;
+}
+
+.pt-8 {
+  padding-top: 2rem;
+}
+
+.pt-11 {
+  padding-top: 2.75rem;
+}
+
+.pt-3 {
+  padding-top: 0.75rem;
+}
+
+.pt-3\.5 {
+  padding-top: 0.875rem;
+}
+
+.pt-10 {
+  padding-top: 2.5rem;
+}
+
+.pt-px {
+  padding-top: 1px;
+}
+
+.pt-14 {
+  padding-top: 3.5rem;
+}
+
+.pt-48 {
+  padding-top: 12rem;
+}
+
+.pt-60 {
+  padding-top: 15rem;
+}
+
+.pt-64 {
+  padding-top: 16rem;
 }
 
 .text-center {
@@ -1179,10 +1143,6 @@ video {
 
   .lg\:w-1\/2 {
     width: 50%;
-  }
-
-  .lg\:w-full {
-    width: 100%;
   }
 
   .lg\:text-4xl {
